@@ -1,0 +1,28 @@
+#photos article {
+    min-height: 160px;
+}
+.photo1 {
+    margin-top: 0px;
+    background-color: #55e044;
+    background-image: url(../photos/spaniel.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 240px;
+}
+.photo2 {
+    margin-top: 0px;
+    background-image: url(../photos/sheep.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 240px;
+}
+.photo3 {
+    margin-top: 0px;
+    background-image: url(../photos/labrador.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 240px;
+}

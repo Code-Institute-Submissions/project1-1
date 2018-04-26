@@ -2,13 +2,29 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.0/css/hover-min.css");
 
 /*---------------------------------------Colors------------*/
-
+.hr-grey hr {
+    margin: 0;
+    padding: 10px;
+    background-color: #333;
+}
+.hr-red hr { 
+    margin: 0;
+    padding: 1px;
+    border-bottom: 1px solid #f33;
+}
+.bdr-red  { 
+    border-bottom: 1px;
+   border-color: #f45;
+}
 
 /*--------------------------------------Special pad------------*/
 h1,h2,h3{
     margin: 0px;
     text-align: center;
     padding: 0;
+}
+h4 {
+    margin-top: 20px;
 }
 .uppercase {
     text-transform: uppercase;
@@ -21,13 +37,19 @@ h1,h2,h3{
 .inline-block {
     display: inline-block;
 }
+.use-table {
+    display: table;
+}
 /* --------------------------header----------------------*/
 header {
     margin: 0;
     background-color: #a5a5e3;
+    min-height: 160px;
 }
 .logo {
-    margin-top: 0px;
+    
+    margin-top: 20px;
+    padding: 0px;
     background: url(../photos/doghead.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -37,18 +59,19 @@ header {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 } 
-.heading-md, .heading-xs {
+.heading-md {
     font-family: "Exo", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 5px;
     font-weight: 100;
     font-size: 46px;
-    margin-top: 50px;
-    background-color: #000;
+    background-color: #333;
     padding: 10px;
-    margin-top: 20px;
     color: #fafafa;
 }
 #btn-heading {
     text-align: center;
+    margin-bottom: 5px;
 }
 #btn-heading a:hover {
     color: #33f033;
@@ -67,13 +90,23 @@ header {
     width: 100%;
     height: 100%;
 }
+/* --------------------------section about----------------------*/
+ul p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #0f0f0f;
+}
+.bg-photo2 {
+    background-color: #33e055;
+}
 /* --------------------------footer----------------------*/
 footer {
     background-color: #664422;
     min-height: 120px;
     color: #fafafa;
     margin: 0;
-    padding 10px;
+    padding: 10px;
 }
 footer p {
     margin: 0 10px 10px 0;
@@ -106,3 +139,26 @@ footer a:hover {
     background-color: #e84f10;
 }
 /*----------------------media---------------*/
+@media(min-width:768px) {
+ .use-cell {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+    }
+ article .use-cell {
+     border-bottom: 1px solid red;
+ }    
+ .center-form {
+    margin: 0 auto;
+    min-height: 240px;
+    padding-top: 30px; 
+    max-width: 50%;
+    }
+}
+@media(max-width:767px) {
+    article {
+        margin-top: 20px;
+    border-top: 1px solid red;
+     border-bottom: 1px solid red;
+ }
+}
