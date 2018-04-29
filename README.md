@@ -5,7 +5,7 @@ approach desktop first USE MEDIA QUERIES FOR MOBILE.
 USE BOOTSTRAP
 
 
-page1;  video of running dog. perhaps full screen with 1 button - learn more.?
+page1;  video of running dog.  full screen with 1 nav button.
 PURPOSE: emotional appeal
 
 page2;  about us : our philosophy and service we provide
@@ -19,3 +19,8 @@ PURPOSE: make easy to find
 
 page 5; contact form
 PURPOSE: provide preferred means of contact and textarea for client to express their interest.
+        This textarea also helps to gauge customer expectations.
+        
+Development:
+Navigation is principally by one button on the header to guide the user on the preferred path.
+The footer provides additional navigation elements.

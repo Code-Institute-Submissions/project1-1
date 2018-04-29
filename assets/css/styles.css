@@ -47,7 +47,6 @@ header {
     min-height: 160px;
 }
 .logo {
-    
     margin-top: 20px;
     padding: 0px;
     background: url(../photos/doghead.jpg);
@@ -136,6 +135,40 @@ ul p {
     padding: 0;
     margin-bottom: 50px;
 }
+/* --------------------------contact----------------------*/
+#contact main {
+    background-color: #234567;
+}
+#contact h {
+    position: relative;
+    text-align: left;
+    top: -160px;
+    left: 80px;
+    font-family: "Exo", sans-serif;
+    font-size: 15px;
+    color: #44e0f0;
+}
+.pacifico {
+    position: relative;
+    text-align: left;
+    left: 10px;
+    font-family: "Pacifico", sans-serif;
+    color: #22e0f0;
+    margin-top: 40px;
+}
+#contact button {
+    position: relative;
+    text-align: left;
+    left: 40px;
+}
+.center-form {
+    margin: 10px auto;
+    padding-top: 10px; 
+    max-width: 70%;
+}
+#contact .form-control {
+    margin: 20px;
+}
 /* --------------------------footer----------------------*/
 footer {
     background-color: #664422;
@@ -183,17 +216,19 @@ footer a:hover {
     }
  .center-form {
     margin: 0 auto;
-    min-height: 240px;
+    min-height: 350px;
     padding-top: 30px; 
-    max-width: 50%;
+    max-width: 70%;
     }
 }
 @media(max-width:767px) {
     #photos article {
         margin-top: 20px;
     }
-    map {
-        left: -100px;
-        top: -100px;
+    .pacifico {
+        margin-top: 0px;
+    }
+    #contact h {
+    display: none;
     }
 }
