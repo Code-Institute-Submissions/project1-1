@@ -40,6 +40,44 @@ h4 {
 .use-table {
     display: table;
 }
+/* --------------------------dropMenu--------------------*/
+.navDefault {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+   height: 30px;
+}
+.dropdown {
+   position: relative;
+   top: 3px;
+   left: 90px;
+}
+.dropMenu{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    list-style: none;
+    margin:0;
+    padding-left: 0;
+    z-index: -2;
+    transform: translateX(25%);
+    transition: transform 1s ease-in-out;
+}
+.dropItem{
+    display: inline-block;
+}
+.dropBtn {
+    background-color: #a5a5e3;
+   color: green;
+}
+.dropdown:hover .dropMenu {
+    transform: translateX(-70%);
+   z-index: 2;
+}
+.dropdown:hover button {
+     transform: translateY(-350px); 
+} 
 /* --------------------------header----------------------*/
 header {
     margin: 0;
@@ -220,6 +258,7 @@ footer a:hover {
     padding-top: 30px; 
     max-width: 70%;
     }
+ 
 }
 @media(max-width:767px) {
     #photos article {
@@ -231,4 +270,8 @@ footer a:hover {
     #contact h {
     display: none;
     }
+    .logo {
+    display: none;
+    }
+  
 }
