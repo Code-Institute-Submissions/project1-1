@@ -14,7 +14,7 @@
 }
 .bdr-red  { 
     border-bottom: 1px;
-   border-color: #f45;
+    border-color: #f45;
 }
 
 /*--------------------------------------Special pad------------*/
@@ -25,6 +25,7 @@ h1,h2,h3{
 }
 h4 {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .uppercase {
     text-transform: uppercase;
@@ -270,7 +271,7 @@ footer a:hover {
     #contact h {
     display: none;
     }
-    .logo {
+    .logo, .smallBox {
     display: none;
     }
   

@@ -1,13 +1,18 @@
+.smallBox {
+    height:200px;
+    width: 200px;
+    float: right;
+}
 #photos article {
     min-height: 160px;
 }
 .photo1 {
     margin-top: 0px;
-    background-color: #55e044;
+    background-color: #fafafa;
     background-image: url(../photos/spaniel.jpeg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 240px;
 }
 .photo2 {
@@ -15,8 +20,8 @@
     background-image: url(../photos/sheep.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 240px;
+    background-size: cover;
+    min-height: 200px;
 }
 .photo3 {
     margin-top: 0px;
