@@ -1,7 +1,24 @@
-.smallBox {
+/*--------- code adapted from http://jsfiddle.net/4AnsK/11/-----start----*/
+#evilNonSemanticSpacer {
+    float:right;
+    display:block;
+    height:100px;
+}
+/*---------code adapted from http://jsfiddle.net/4AnsK/11/-----end----*/
+.floatRightBox {
     height:200px;
     width: 200px;
     float: right;
+    clear: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.floatLeftBox {
+    height:200px;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
 }
 #photos article {
     min-height: 160px;

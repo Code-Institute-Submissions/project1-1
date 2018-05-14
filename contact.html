@@ -20,12 +20,23 @@
             <div class="col-sm-8 col-md-8">
                 <div class="row">
                     <div>
-                       <h1 class="heading-md heading-xs"> Prepare for your visit</h1>
+                       <h1 class="heading-md"> Prepare for your visit</h1>
                    </div>
                </div>
-               <div id="btn-heading">
-                   <a href="directions.html" class="btn btn-primary">Find us easily !!</a>
-               </div>
+               <nav id="btn-heading">
+                    <a href="photos.html" class="btn btn-primary">See our breeds !!</a>
+                    <div class="navDefault">
+                        <div class="dropdown">  
+                            <button  class="inline-block dropBtn">More</button>
+                            <ul class=" dropMenu dropItem">
+                            <li class="dropItem"><a href="index.html" class="dropLink">Video</a></li>
+                            <li class="dropItem"><a href="photos.html" class="dropLink">Photos</a></li>
+                            <li class="dropItem"><a href="directions.html" class="dropLink">Map</a></li>
+                            <li class="dropItem"><a href="about.html" class="dropLink">About</a></li>
+                            </ul>
+                        </div>
+                    </div>           
+               </nav>
            </div>    
         </div>
     </header>
@@ -45,7 +56,7 @@
                     <div class="center-form">
                         <h3 class="pacifico">I want : </h3>
                         <textarea rows="5" name="summary" class="form-control" id="summary" placeholder="your concerns and interests" required/></textarea>
-                        <button type="submit" class="btn btn-secondary center">Send</button>
+                        <button type="submit" id="send" class="btn btn-secondary center">Send</button>
                     </div>
                     </div>
                 </form>

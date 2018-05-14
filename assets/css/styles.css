@@ -195,7 +195,7 @@ ul p {
     color: #22e0f0;
     margin-top: 40px;
 }
-#contact button {
+#contact #send {
     position: relative;
     text-align: left;
     left: 40px;
