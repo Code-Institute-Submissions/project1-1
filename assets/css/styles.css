@@ -146,7 +146,8 @@ ul p {
 
 /* -------------------------- directions----------------------*/
 #address {
-    min-height: 500px;
+    margin-bottom: 30px;
+    margin-left: 0;
     border-right: 1px solid gray;
     padding: 0;
 }
