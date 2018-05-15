@@ -2,7 +2,6 @@ Project 1 - Front End- 5 page dog breeder website
 
 PAGES WITH HEADERS AND FOOTERS AND MAIN SECTION AS  BELOW.
 approach desktop first: considered most probable usage and gives greater visual appeal
-USE MEDIA QUERIES FOR MOBILE.
 USE BOOTSTRAP
 
 page1;  video of running dog.  full screen with 1 nav button.
