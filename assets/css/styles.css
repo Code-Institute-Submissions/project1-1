@@ -41,6 +41,9 @@ h4 {
 .use-table {
     display: table;
 }
+iframe {
+    border-width: 0;
+}
 /* --------------------------dropMenu--------------------*/
 .navDefault {
     position: relative;
@@ -154,20 +157,21 @@ ul p {
     border-left: 1px solid gray;
     padding: 0;
 }
-#address h {
+#address h6 {
    font-family: "Roboto", sans-serif;
    font-weight: 700;
    font-size: 25px;
    position: relative;
    left: 10%;
    top: 15px;
+   bottom: 10px
 }
 #address p {
     position: relative;
     left: 15%;
     top: 15px;
     font-family: "Exo", sans-serif;
-    font-size: 32px;
+    font-size: 30px;
     margin: 0;
 }
 #map  {
@@ -183,7 +187,7 @@ ul p {
 #contact main {
     background-color: #234567;
 }
-#contact h {
+#contact h6 {
     position: relative;
     text-align: left;
     top: -160px;
