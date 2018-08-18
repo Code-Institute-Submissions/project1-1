@@ -62,7 +62,7 @@ h4 {
     margin:0;
     padding-left: 0;
     z-index: -2;
-    transform: translateX(-15%);
+    transform: translateX(-25%);
     transition: transform .75s ease-in-out;
 }
 .dropItem{
@@ -160,14 +160,15 @@ ul p {
    font-size: 25px;
    position: relative;
    left: 10%;
-   top: 30px;
+   top: 15px;
 }
 #address p {
     position: relative;
     left: 15%;
-    top: 30px;
+    top: 15px;
     font-family: "Exo", sans-serif;
-    font-size: 36px;
+    font-size: 32px;
+    margin: 0;
 }
 #map  {
     position: relative;
